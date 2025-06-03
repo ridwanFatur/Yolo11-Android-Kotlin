@@ -5,7 +5,7 @@ This project is an Android application built with **Kotlin** and **Jetpack Compo
 ## 📦 Model
 - Model used: `yolo11n_float32.tflite`
 - Source: Converted from YOLO11 by [Ultralytics](https://github.com/ultralytics/ultralytics)
-- 
+
 ## Features
 
 The app contains **4 main pages**, each serving a specific purpose:
