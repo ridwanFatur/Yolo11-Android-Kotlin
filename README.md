@@ -2,6 +2,7 @@
 
 This project is an Android application built with **Kotlin** and **Jetpack Compose**, designed to perform on-device inference using the `yolo11n_float32.tflite` model from **Ultralytics**.
 
+Demo: https://youtube.com/shorts/UR3cWbvP0pY
 ## 📦 Model
 - Model used: `yolo11n_float32.tflite`
 - Source: Converted from YOLO11 by [Ultralytics](https://github.com/ultralytics/ultralytics)
