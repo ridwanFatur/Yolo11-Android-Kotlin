@@ -1,33 +1,25 @@
-package com.example.myapplication
+package com.ridwanfatur.yolodemo
 
+import android.Manifest
 import android.content.res.AssetFileDescriptor
 import android.os.Bundle
+import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.activity.enableEdgeToEdge
 import androidx.activity.result.contract.ActivityResultContracts
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
-import com.example.myapplication.ui.theme.MyApplicationTheme
+import androidx.navigation.compose.NavHost
+import androidx.navigation.compose.composable
+import androidx.navigation.compose.rememberNavController
+import com.ridwanfatur.yolodemo.pages.CaptureDetectPage
+import com.ridwanfatur.yolodemo.pages.HomePage
+import com.ridwanfatur.yolodemo.pages.LiveDetectionPage
+import com.ridwanfatur.yolodemo.pages.TestAssetImagePage
+import com.ridwanfatur.yolodemo.pages.TestCameraPage
+import com.ridwanfatur.yolodemo.ui.theme.MyApplicationTheme
 import org.tensorflow.lite.Interpreter
 import java.io.FileInputStream
 import java.nio.MappedByteBuffer
 import java.nio.channels.FileChannel
-import android.Manifest
-import android.util.Log
-import androidx.navigation.compose.NavHost
-import androidx.navigation.compose.composable
-import androidx.navigation.compose.rememberNavController
-import com.example.myapplication.pages.CaptureDetectPage
-import com.example.myapplication.pages.HomePage
-import com.example.myapplication.pages.LiveDetectionPage
-import com.example.myapplication.pages.TestAssetImagePage
-import com.example.myapplication.pages.TestCameraPage
 
 class MainActivity : ComponentActivity() {
     private var tflite: Interpreter? = null

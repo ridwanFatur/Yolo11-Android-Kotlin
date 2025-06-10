@@ -1,4 +1,4 @@
-package com.example.myapplication.pages
+package com.ridwanfatur.yolodemo.pages
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -33,11 +33,11 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.viewinterop.AndroidView
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.compose.LocalLifecycleOwner
-import com.example.myapplication.ModelConstants
-import com.example.myapplication.components.DetectionBoxUI
-import com.example.myapplication.utils.DetectionBox
-import com.example.myapplication.utils.ImageUtils
-import com.example.myapplication.utils.Utils
+import com.ridwanfatur.yolodemo.ModelConstants
+import com.ridwanfatur.yolodemo.components.DetectionBoxUI
+import com.ridwanfatur.yolodemo.utils.DetectionBox
+import com.ridwanfatur.yolodemo.utils.ImageUtils
+import com.ridwanfatur.yolodemo.utils.Utils
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 import org.tensorflow.lite.Interpreter

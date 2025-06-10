@@ -1,4 +1,4 @@
-package com.example.myapplication.pages
+package com.ridwanfatur.yolodemo.pages
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -13,7 +13,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
-import com.example.myapplication.RouteConstants
+import com.ridwanfatur.yolodemo.RouteConstants
 
 @Composable
 fun HomePage(navController: NavHostController) {

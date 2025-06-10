@@ -1,8 +1,8 @@
-package com.example.myapplication.utils
+package com.ridwanfatur.yolodemo.utils
 
 import android.graphics.Bitmap
 import android.util.Log
-import com.example.myapplication.ModelConstants
+import com.ridwanfatur.yolodemo.ModelConstants
 import org.tensorflow.lite.Interpreter
 import java.io.IOException
 

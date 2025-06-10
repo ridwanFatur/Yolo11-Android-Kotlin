@@ -1,4 +1,4 @@
-package com.example.myapplication.pages
+package com.ridwanfatur.yolodemo.pages
 
 import android.graphics.BitmapFactory
 import android.util.Log
@@ -25,11 +25,11 @@ import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
-import com.example.myapplication.AssetConstants
-import com.example.myapplication.ModelConstants
-import com.example.myapplication.components.DetectionBoxUI
-import com.example.myapplication.utils.DetectionBox
-import com.example.myapplication.utils.Utils
+import com.ridwanfatur.yolodemo.AssetConstants
+import com.ridwanfatur.yolodemo.ModelConstants
+import com.ridwanfatur.yolodemo.components.DetectionBoxUI
+import com.ridwanfatur.yolodemo.utils.DetectionBox
+import com.ridwanfatur.yolodemo.utils.Utils
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import org.tensorflow.lite.Interpreter

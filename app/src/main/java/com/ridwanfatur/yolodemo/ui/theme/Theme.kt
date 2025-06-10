@@ -1,4 +1,4 @@
-package com.example.myapplication.ui.theme
+package com.ridwanfatur.yolodemo.ui.theme
 
 import android.app.Activity
 import android.os.Build

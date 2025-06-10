@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.ridwanfatur.yolodemo
 
 import org.junit.Test
 

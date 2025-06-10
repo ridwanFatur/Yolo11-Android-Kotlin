@@ -1,4 +1,4 @@
-package com.example.myapplication.components
+package com.ridwanfatur.yolodemo.components
 
 import android.graphics.Paint
 import androidx.compose.foundation.Canvas
@@ -11,7 +11,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.graphics.drawscope.drawIntoCanvas
 import androidx.compose.ui.graphics.nativeCanvas
-import com.example.myapplication.utils.DetectionBox
+import com.ridwanfatur.yolodemo.utils.DetectionBox
 import java.text.DecimalFormat
 
 @Composable

@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.ridwanfatur.yolodemo
 
 object AssetConstants {
     const val MODEL_PATH = "yolo11n_float32.tflite"

@@ -1,6 +1,6 @@
-package com.example.myapplication.utils
+package com.ridwanfatur.yolodemo.utils
 
-import com.example.myapplication.CocoClassNames
+import com.ridwanfatur.yolodemo.CocoClassNames
 
 data class DetectionBox(
     val x: Double,
